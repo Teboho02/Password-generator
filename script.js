@@ -27,7 +27,7 @@ class PasswordGenerator {
         if (this.numbersCheckbox.checked) charset += this.numbers;
         if (this.symbolsCheckbox.checked) charset += this.symbols;
 
-        const length = Math.floor(Math.random() * (16 - 10 + 1)) + 10;
+        const length = Math.floor(Math.random() * (7)) + 10;
         let password = '';
 
         
