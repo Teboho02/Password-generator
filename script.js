@@ -79,5 +79,5 @@ class PasswordGenerator {
     }
 }
 
-// Initialize the password generator
+
 const passwordGen = new PasswordGenerator();
