@@ -1,3 +1,4 @@
+
 class PasswordGenerator {
     constructor() {
         this.lowercase = 'abcdefghijklmnopqrstuvwxyz';
@@ -46,7 +47,7 @@ class PasswordGenerator {
 
     addToHistory(password) {
         this.history.unshift(password);
-        if (this.history.length > 5) this.history.pop();
+        //if (this.history.length > 5) //this.history.pop()
         this.updateHistoryDisplay();
     }
 
